@@ -13,8 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to{" "}
-          <a href="https://github.com/LuminiNanayakkara">Lumini's Blog!</a>
+          Welcome to <a href="https://github.com/">Lumini's Blog!</a>
         </h1>
 
         <p className={styles.description}>
@@ -22,33 +21,23 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
+        <h2>Contact Me</h2>
+
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.linkedin.com/feed/" className={styles.card}>
+            <h2>LinkedIn</h2>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://www.facebook.com/" className={styles.card}>
+            <h2>Facebook</h2>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/" className={styles.card}>
+            <h2>GitHub</h2>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="https://twitter.com/?lang=en" className={styles.card}>
+            <h2>Twitter</h2>
           </a>
         </div>
       </main>
